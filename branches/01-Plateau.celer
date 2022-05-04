@@ -23,7 +23,7 @@ Plateau:
       Arrow: -1
     comment: for Nebb
     notes: Headshot Bokoblin at the tower
-- +_Tower::GreatPlateau:
+- _Tower::GreatPlateau:
     split-type: None
 
 - WB over barrier to mag
@@ -35,7 +35,9 @@ Plateau:
 - BLSS and Windbomb to stasis
 - _Shrine::OwaDaim
 
-- Boulder + BTB to cryo
+- Boulder + BTB to cryo:
+    var-change:
+      Arrow: -1
 - _Shrine::KehNamut
 
 - BLSS to ToT

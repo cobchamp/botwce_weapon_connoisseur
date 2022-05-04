@@ -1,17 +1,17 @@
 Hyrule Castle:
 - BLSS to Hyrule Castle
-- +_Chest<Ancient Arrows>:
+- _Chest<Ancient Arrows>:
     line-color: orange
     coord: [-259.50, 420.85, -1065.37]
     var-change:
       AncientArrows: +5
     notes: Collect .v(AncientArrows) Ancient Arrows
-- +_Chest<Ancient Arrows>:
+- _Chest<Ancient Arrows>:
     coord: [-254.00, 209.67, -742.37]
     var-change:
       AncientArrows: +3
     notes: Collect 3/.v(AncientArrows) Ancient Arrows
-- +.loc(Castle Town Guardian killing spree):
+- .loc(Castle Town Guardian killing spree):
     notes: Farm guardian parts for 15 Ancient Springs, 5 Ancient Shafts, and 2 Ancient Cores and 1000 Rupees worth of additional parts
 - Guardian Stalker:
     icon: calamity
@@ -62,7 +62,7 @@ Hyrule Castle:
     icon: calamity
     split-type: UserDefined
     notes: Split when required parts have been farmed
-- +_Chest<WB .dir(N) to Fire Arrows>:
+- _Chest<WB .dir(N) to Fire Arrows>:
     comment: for combat
     coord: [-45.00, 209.58, -823.87]
     var-change:

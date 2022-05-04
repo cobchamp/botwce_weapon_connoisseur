@@ -1,23 +1,20 @@
 Yiga Hideout:
 - BLSS to Satori Mountain
 - WB .dir(NW) to bombable rocks and bomb
-- +_Chest<Ice Arrows>:
+- _Chest<Ice Arrows>:
     line-color: red
     comment: for combat
     coord: [-2198.98, 351.76, 509.92]
     var-change:
       IceArrows: +5
     notes: Collect .v(IceArrows) Ice Arrows
-- +.loc(WB .dir(N) Satori Durians):
-    icon: material
+- WB .dir(N) Satori Durians
+- _Material<Durians, +10>:
     coord: [-2192.70, 410.24, 434.80]
-    var-change:
-      Durian: +10
-    notes: Collect .v(Durian) Durians
 - _Shrine::MoggLatan:
     comment: Activate Shrine
 - BLSS + 2 WBs to Lizalfos Camp 
-- +_Equipment::Weapon<Dragonbone Moblin Club>:
+- _Equipment::Weapon<Dragonbone Moblin Club>:
     coord: [-3113.38, 546.66, 1332.69]
     comment: for combat
     var-change:
