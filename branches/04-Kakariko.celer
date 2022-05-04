@@ -1,7 +1,7 @@
 Kakariko:
 - WB .dir(SE) to Fire Wizzrobe
 - +_Equipment::Weapon<Fire Rod>:
-    line-color: green
+    line-color: yellow
     coord: [958.90, 190.90, -594.90]
     var-change:
       Weapons: +1
