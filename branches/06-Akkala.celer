@@ -1,0 +1,15 @@
+Akkala:
+- +BLSS to Akkala Ancient Furnace:
+    coord: [4159.42, 344.20, -3167.59]
+- WB to Akkala Tech Lab:
+    coord: [4504.60, 351.31, -3150.07]
+    notes: Weapon smuggle and carry flame with Moblin Club
+- _Equipment::Weapon<Ancient Short Sword>:
+    split-type: UserDefined
+    coord: [4514.28, 352.96, -3158.73]
+    notes: Purchase Ancient Short Sword from Rosie
+    var-change:
+      Weapons: +1
+    comment: for Nebb
+- _Warp::TechLab::Hateno:
+    split-type: None

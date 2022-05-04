@@ -1,0 +1,45 @@
+Plateau:
+- SOR Clip, Activate ToD
+- _Equipment::Weapon<Tree Branch>:
+    coord: [-1024.63, 251.40, 1812.55]
+    var-change:
+      Weapons: +1
+    comment: For fall damage cancel
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- _Chest<Traveller's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+- 5 Arrows:
+    var-change:
+      Arrow: 5
+- BLSS to bombs
+- _Shrine::JaBaij
+
+- BLSS to tower
+- _Equipment::Weapon<Traveler's Sword>:
+    coord: [-596.00, 172.51, 1702.50]
+    var-change:
+      Weapons: +1
+      Arrow: -1
+    comment: for Nebb
+    notes: Headshot Bokoblin at the tower
+- +_Tower::GreatPlateau:
+    split-type: None
+
+- WB over barrier to mag
+- _Chest<Ruby>:
+    coord: [-671.65, 171.79, 1522.61]
+    notes: Optional, sometimes Guardian RNG will leave you short on rupees
+- _Shrine::OmanAu
+
+- BLSS and Windbomb to stasis
+- _Shrine::OwaDaim
+
+- Boulder + BTB to cryo
+- _Shrine::KehNamut
+
+- BLSS to ToT
+- Paraglider:
+    split-type: UserDefined
+    icon: king
+    coord: [-812, 1966.1012189378007]

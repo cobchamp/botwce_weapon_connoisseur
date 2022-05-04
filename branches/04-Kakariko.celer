@@ -1,0 +1,23 @@
+Kakariko:
+- WB .dir(SE) to Fire Wizzrobe
+- +_Equipment::Weapon<Fire Rod>:
+    line-color: green
+    coord: [958.90, 190.90, -594.90]
+    var-change:
+      Weapons: +1
+      IceArrow: -1
+    comment: for Nebb
+    notes: Use Ice Arrow on Fire Wizzrobe
+- +WB .loc(NW) to Korok Stump for BLSS to Impa:
+    coord: [840.41, 236.29, -692.48]
+- _Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+    split-type: UserDefined
+    notes: Talk to Impa twice to advance the locked memories main quest
+- +Change time of Day to Noon:
+    icon: make-noon
+    coord: [1800.25, 219.63, 1012.57]
+    notes: To align route with Nebb's sleep schedule
+- +_Shop<General Store>:
+    coord: [1789.03, 221.05, 1029.56]
+    notes: Sell all extra Guardian Parts and Plateau Ruby for 1000 Rupees

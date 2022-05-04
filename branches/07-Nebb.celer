@@ -1,0 +1,8 @@
+Nebb:
+- WB .dir(2) to Nebb in Hateno
+- Dark Beast Nebb:
+    line-color: blue
+    coord: [3352.40, 225.55, 2138.81]
+    icon: npc-sheika-male
+    notes: Trade in all Weapons with Nebb for quest completion; Final split on receiving Diamond
+    split-type: UserDefined
