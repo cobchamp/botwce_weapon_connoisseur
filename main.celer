@@ -6,7 +6,7 @@ _project:
   description: ""
   name: Weapon Connoisseur
   url: "https://github.com/cobchamp/botwce_weapon_connoisseur"
-  version: 0.1.0
+  version: 0.2.0
 _route:
   - Plateau:
       - __use__ Plateau

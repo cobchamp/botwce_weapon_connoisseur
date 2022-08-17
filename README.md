@@ -1,1 +1,1 @@
-[View in Celer Web App](https://celer.itntpiston.app/#/gh/cobchamp/botwce_weapon_connoisseur/master)
+[View in Celer Web App](https://celer.itntpiston.app/#/gh/cobchamp/botwce_weapon_connoisseur)
