@@ -1,0 +1,23 @@
+Yiga Hideout:
+- _Warp::Shrine::KehNamut:
+    split-type: None
+    line-color: orange
+- BLSS + 3 or 4 WBs to Yiga Hideout:
+    movements:
+      - to: [-3182,828]
+      - to: [-3160,1078]
+- Shield clip into Yiga Hideout:
+    notes: Clear ragdoll
+- _Equipment::Weapon<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+    comment: for Nebb
+- _Equipment::Weapon<Windcleaver>:
+    coord: [-3534.67, 441.29, 1319.33]
+    split-type: UserDefined
+    var-change:
+      Weapons: +1
+      IceArrow: -4
+    comment: for Nebb
+    notes: Quickkill Yiga Blademaster with Frostspear and Ancient Battle Axe+ and collect weapon immediately
+- _Warp::TechLab::Hateno:
+    split-type: None

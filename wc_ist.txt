@@ -1,0 +1,74 @@
+Initialize 1 Slate
+# SoR clip
+Get 1 HylianShroom 1 Flint 1 Torch 1 WoodcuttersAxe
+Equip WoodcuttersAxe
+Save
+Get 5 HylianShroom 1 SearedSteak 6 SpicyPepper 1 PotLid[life=300]
+Get 1 TravelersBow 5 NormalArrow
+Get 1 SpiritOrb
+# Bombs Complete
+# Kill tower boko
+Get 1 TravelersSword
+Get 5 NormalArrow
+# Activate Tower
+# Break box outside Mag. Get stuff.
+Get 1 SpiritOrb
+# Magnesis Complete
+Get 5 HyruleHerb
+Get 2 Apple
+Get 1 SpiritOrb
+# Stasis Complete
+Shoot 1 Arrow
+Get 1 SpiritOrb
+# Cryonis Complete
+Get 1 Glider
+# BLSS to Kaam Yatak
+# WB to core chest
+Get 1 Core
+Eat SearedSteak
+# WB to eod chest
+Shoot 1 Arrow
+Get 1 EdgeOfDuality 1 Shaft 1 Spring
+# Exit Kaam Yatak
+# WB to offering korok
+Get 3 Apple 1 Wood
+# BLSS to Namika Ozz
+# Make fire
+Drop 1 Flint 1 Wood
+# Kill Blizzrobe
+Shoot 1 Arrow
+Get 1 BlizzardRod
+# Make night
+Get 1 Moblin Club
+# Enter Namika Ozz
+Get 1 AncientBattleAxePlus 1 Frostspear
+Drop 1 Torch 1 WoodcuttersAxe
+# Exit Namika Ozz
+# WB to Fire Wizzrobe
+Get 1 FireRod
+# 2 WBs + BLSS to Kakariko
+# Paya skip, talk to Impa
+Drop 1 BlizzardRod
+With all HylianShroom all Pepper all HyruleHerb all Apple
+Break 4 Slots
+# Buy 5 NormalArrow if tower boko didn't drop any
+D&P 1 Core
+# At goddess statue
+Sell 4 SpiritOrb
+Save as AutoSave
+Reload
+Drop 1 Spring 1 Core 1 HylianShroom 1 Flint
+Reload AutoSave
+Shoot 1 Arrow
+Save
+Reload
+D&P 1 Spring 1 Core
+Sell 85 Spring
+Buy 16 SwiftCarrot 5 Egg
+# Activate Hateno Tech Lab, Get Camera
+Get 1 AncientShortSword
+# BLSS + 4 WBs to Yiga Hideout
+Equip Frostspear
+Get 1 DuplexBow
+Get 1 Windcleaver
+# Warp to Hateno Tech Lab, GG

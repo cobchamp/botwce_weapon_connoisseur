@@ -10,15 +10,13 @@ _project:
 _route:
   - Plateau:
       - __use__ Plateau
-  - Yiga Hideout:
-      - __use__ Yiga Hideout
-  - Hyrule Castle:
-      - __use__ Hyrule Castle
   - Kakariko:
       - __use__ Kakariko
   - Hateno:
       - __use__ Hateno
   - Akkala:
       - __use__ Akkala
+  - Yiga Hideout:
+      - __use__ Yiga Hideout
   - Nebb:
       - __use__ Nebb

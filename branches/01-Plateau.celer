@@ -1,12 +1,33 @@
 Plateau:
-- SOR Clip, Activate ToD
-- _Equipment::Weapon<Tree Branch>:
-    coord: [-1024.63, 251.40, 1812.55]
+- SOR Clip, Watch ToD Cutscene, clip back in-bounds
+- _Material<Hylian Shroom, 1>:
+    coord: [-1035.88, 253.24, 1836.00]
+- _Material<Flint, 1>:
+    coord: [-954.90, 194.30, 1833.20]
+- _Equipment::Weapon<Woodcutter's Axe>:
+    coord: [-920.93, 220.65, 1871.83]
     var-change:
       Weapons: +1
-    comment: For fall damage cancel
+- _Equipment::Weapon<Torch>:
+    coord: [-936.20, 224.90, 1880.20]
+    comment: Side-hop to avoid Old Man trigger
+    var-change:
+      Weapons: +1
+- .!!(Create Plateau save now):
+    icon: link
+    comment: 2 weapons, 1 Hylian Shroom, 1 Torch, Slate 
+    notes: This save will be used during IST, do not create another hard save until after IST
+- _Material<Hylian Shroom, 5>:
+    coord: [-955.79, 236.56, 1939.56]
+    comment: Scrap material for IST and food
+- _Material<Seared Steak>:
+    coord: [-955.87, 237.42, 1948.86]
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
+    notes: Must be damaged for IST
+- _Material<Spicy Pepper, 6>:
+    coord: [-964.50, 238.84, 1953.28]
+    comment: Scrap material for IST and food
 - _Chest<Traveller's Bow>:
     coord: [-832.43, 222.00, 1963.11]
 - 5 Arrows:
@@ -20,22 +41,29 @@ Plateau:
     coord: [-596.00, 172.51, 1702.50]
     var-change:
       Weapons: +1
-      Arrow: -1
+      Arrow: +4
     comment: for Nebb
-    notes: Headshot Bokoblin at the tower
+    notes: Headshot Bokoblin at the tower, 5x arrows (RNG)
 - _Tower::GreatPlateau:
     split-type: None
 
 - WB over barrier to mag
-- _Chest<Ruby>:
-    coord: [-671.65, 171.79, 1522.61]
-    notes: Optional, sometimes Guardian RNG will leave you short on rupees
+- _Material<Iron Box>:
+    coord: [-671.81, 171.64, 1525.14]
+    notes: Break box for arrows / backup food
 - _Shrine::OmanAu
 
-- BLSS and Windbomb to stasis
+- _Material<Hyrule Herb, 5>:
+    coord: [-711.65, 171.46, 1481.00]
+    comment: Scrap material for IST and food
+- BLSS and Windbomb to tree
+- _Material<Apple, 2>:
+    coord: [-856.45, 192.73, 2274.48]
+    comment: Scrap material for IST
+- Tree WB
 - _Shrine::OwaDaim
 
-- Boulder + BTB to cryo:
+- Boulder + BTB/BLSS to cryo:
     var-change:
       Arrow: -1
 - _Shrine::KehNamut

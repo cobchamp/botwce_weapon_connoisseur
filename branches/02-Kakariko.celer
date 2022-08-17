@@ -1,0 +1,92 @@
+Kakariko:
+- BLSS to Ka'am Yatak
+- _Shrine::KaamYatak:
+    split-type: none
+    text: Enter Ka'am Yatak
+    line-color: red
+- _Material<Ancient Core, 1>:
+    comment: Chest inside shrine
+    hide-icon-on-map: true
+- _Equipment::Weapon<Edge of Duality>:
+    comment: Chest inside shrine
+    hide-icon-on-map: true
+    var-change:
+      Weapons: +1
+- _Material<Ancient Shaft, 1>:
+    comment: Kill 4 Guardian Scout IIs for RNG parts
+    hide-icon-on-map: true
+- _Material<Ancient Spring, 1>:
+    comment: Kill 4 Guardian Scout IIs for RNG parts
+    hide-icon-on-map: true
+- _Warp::Shrine::KaamYatak:
+    split-type: UserDefined
+- WB .dir(N) toward offering Korok:
+    coord: [-1016.02, 203.83, 558.06]
+- _Material<Apple, 2>:
+    comment: Scrap material for IST
+- _Material<Wood, 1>:
+    comment: For campfire
+- BLSS
+- Set campfire near Blizzrobe:
+    comment: Use 1 Wood and 1 Flint
+    notes: If it is raining... Chop another tree near the Blizzrobe, set campfire inside Namika Ozz shrine, drop torch to keep lit, wait at the fire, escort flame to the Blizzrobe. This is just bad luck
+    coord: [766.20, 186.40, -751.00]
+- Use fire + arrow to instantly kill Blizzrobe
+- Bomb Ice chuchus that spawn
+- _Tod::Night
+- _Equipment::Weapon<Moblin Club>:
+    coord: [718.64, 179.21, -741.64]
+    var-change:
+      Weapons: +1
+    comment: for Nebb
+    notes: Bomb Stalmoblin when he rises
+- _Shrine::NamikaOzz:
+    split-type: none
+    text: Enter Namika Ozz
+- _Equipment::Weapon<Ancient Battle Axe+>:
+    comment: From Guardian Scout III
+    notes: Quick kill with Edge of Duality and Blizzard Rod
+    hide-icon-on-map: true
+    var-change:
+      Weapons: +1
+- Drop Edge of Duality, Woodcutter's Axe and Torch:
+    var-change:
+      Weapons: -3
+- _Equipment::Weapon<Frostspear>:
+    comment: From Chest
+    hide-icon-on-map: true
+    var-change:
+      Weapons: +1
+- _Warp::Shrine::NamikaOzz:
+    split-type: UserDefined
+- WB .dir(SE) to Fire Wizzrobe
+- _Equipment::Weapon<Fire Rod>:
+    coord: [958.90, 190.90, -594.90]
+    var-change:
+      Weapons: +1
+    comment: for Nebb
+    notes: Use Blizzard Rod on Fire Wizzrobe
+- WB .loc(NW) to Korok Stump for BLSS to Impa:
+    coord: [840.41, 236.29, -692.48]
+- _Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+    notes: Talk to Impa twice to advance the locked memories main quest
+- Drop Blizzard Rod:
+    var-change:
+      Weapons: -1
+- _Shop<Armor Shop>:
+    coord: [1854.375,981.375]
+    comment: Break .dir(4) slots with Hylian Shrooms, Spicy Peppers, Hyrule Herb and Apple
+- Arrange materials by dropping and picking up (Shaft, Spring, Core)
+- _Npc<Goddess Statue>:
+    comment: Redeem .dir(4) Spirit Orbs for heart and to create autosave
+    coord: [1840.12, 218.54, 997.89]
+- IST:
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_weapon_connoisseur/main/wc_ist.txt)
+    icon: material
+    split-type: UserDefined
+- _Shop<General Store>:
+    coord: [1794.75,1029.25]
+- Sell .dir(85) Ancient Springs
+- Buy .dir(16) Swift Carrot, .dir(5) Eggs:
+    comment: For food
