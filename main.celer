@@ -8,6 +8,8 @@ _project:
   url: "https://github.com/cobchamp/botwce_weapon_connoisseur"
   version: 0.2.0
 _route:
+  - "(?=) Requirements:"
+  - "(==) Traveller's Sword, Moblin Club, Ancient Battle Axe+, Frostspear, Fire Rod, Duplex Bow, Windcleaver, Ancient Short Sword (Reqs 2 Ancient Cores, 15 Ancient Springs, 5 Ancient Shafts, 1000 Rupees)" 
   - Plateau:
       - __use__ Plateau
   - Kakariko:
